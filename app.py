@@ -28,10 +28,11 @@ CRAFT_ORDER = [
 ]
 
 
-# Address book mapping of employee numbers to name and craft description.
-# This data is embedded so the application works without external dependencies.[
-    {"AddressBookNumber": "1020581", "Name": "FOX, ANTHONY SCOTT", "Craft Description": "DC Mech Tech"},
-    {"AddressBookNumber": "594232", "Name": "WILLIAMS, JOSEPH LEE", "Craft Description": "Elec Day Tech"},
+# Address book mapping of employee numbers to name and  description.
+# This data is embedded so the application works without external dependencies.
+ADDRESS_BOOK = [
+    {"AddressBookNumber": "1020581", "Name": "FOX, ANTHONY SCOTT", " Description": "DC Mech Tech"},
+    {"AddressBookNumber": "594232", "Name": "WILLIAMS, JOSEPH LEE", " Description": "Elec Day Tech"},
     {"AddressBookNumber": "1089326", "Name": "OUELLETTE, JACOB DYLAN", "Craft Description": "Elec Day Tech"},
     {"AddressBookNumber": "172785", "Name": "COOK, NICHOLAUS C.", "Craft Description": "Elec Day Tech"},
     {"AddressBookNumber": "198424", "Name": "CULVER SR., MICHAEL W.", "Craft Description": "Elec Day Tech"},
